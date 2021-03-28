@@ -7,10 +7,16 @@ import React from "react";
  * このような命名方法を「パスカルケース」と呼ぶ
  */
 const App = () => {
+  const onClickButton = () => alert("Clicked");
+  const contentStyle = {
+    color: "blue",
+    fontSize: "18px"
+  };
   return (
     <>
-      <h1>こんにちは！</h1>
-      <p>Helllo</p>
+      <h1 style={{ color: "red" }}>こんにちは！</h1>
+      <p style={contentStyle}>Helllo</p>
+      <button onClick={onClickButton}>ボタン</button>
     </>
   );
 };
