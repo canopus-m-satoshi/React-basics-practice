@@ -1,7 +1,7 @@
 /* eslint react-hooks/exhaustive-deps: off */
 
 import React, { useEffect, useState } from "react";
-import ColorfulMessage from "./components/ColorfulMessage";
+import { ColorfulMessage } from "./components/ColorfulMessage";
 
 /**
  * コンポーネントの作成
